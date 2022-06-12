@@ -44,7 +44,7 @@ function Calculator() {
                 <button onClick={clickHandler} value ="*" id='color'>&times;</button>
                 <button onClick={clickHandler} value ="/" id='color'>&divide;</button>
                 <button onClick={calculate} value ="" className='euqal' id='color'>=</button>
-                <button onClick={clear} value ="" id='ac'>C</button>
+                <button onClick={clear} value =""    id='ac'>C</button>
                 <button onClick={allClear} value ="" id='ac'>AC</button>
             </div>
         </div>
