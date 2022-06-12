@@ -25,22 +25,22 @@ function Calculator() {
     }
 
     return (
-        <div><br /><br />
-            <input type="text" id="" value={state}/><br />
+        <div className='one'><br /><br />
+            <input type="text" id="input" value={state}/><br />
             <br />
-            <div>
+            <div className='container'>
                 <button onClick={clickHandler} value ="1">1</button>
                 <button onClick={clickHandler} value ="2">2</button>
                 <button onClick={clickHandler} value ="3">3</button>
-                <button onClick={clickHandler} value ="4">4</button><br />
+                <button onClick={clickHandler} value ="4">4</button>
                 <button onClick={clickHandler} value ="5">5</button>
                 <button onClick={clickHandler} value ="6">6</button>
                 <button onClick={clickHandler} value ="7">7</button>
-                <button onClick={clickHandler} value ="8">8</button><br />
+                <button onClick={clickHandler} value ="8">8</button>
                 <button onClick={clickHandler} value ="9">9</button>
                 <button onClick={clickHandler} value ="0">0</button>
                 <button onClick={clickHandler} value ="+">+</button>
-                <button onClick={clickHandler} value ="-">&ndash;</button><br />
+                <button onClick={clickHandler} value ="-">&ndash;</button>
                 <button onClick={clickHandler} value ="*">&times;</button>
                 <button onClick={clickHandler} value ="/">&divide;</button>
                 <button onClick={calculate} value ="">=</button>

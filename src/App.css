@@ -40,3 +40,13 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+#input{
+align-items: center;
+padding: 5px;
+width: 250px;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+}
