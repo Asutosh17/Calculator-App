@@ -39,13 +39,13 @@ function Calculator() {
                 <button onClick={clickHandler} value ="8">8</button>
                 <button onClick={clickHandler} value ="9">9</button>
                 <button onClick={clickHandler} value ="0">0</button>
-                <button onClick={clickHandler} value ="+">+</button>
-                <button onClick={clickHandler} value ="-">&ndash;</button>
-                <button onClick={clickHandler} value ="*">&times;</button>
-                <button onClick={clickHandler} value ="/">&divide;</button>
-                <button onClick={calculate} value ="">=</button>
-                <button onClick={clear} value ="">C</button>
-                <button onClick={allClear} value ="">AC</button>
+                <button onClick={clickHandler} value ="+" id='color'>+</button>
+                <button onClick={clickHandler} value ="-" id='color'>&ndash;</button>
+                <button onClick={clickHandler} value ="*" id='color'>&times;</button>
+                <button onClick={clickHandler} value ="/" id='color'>&divide;</button>
+                <button onClick={calculate} value ="" className='euqal' id='color'>=</button>
+                <button onClick={clear} value ="" id='ac'>C</button>
+                <button onClick={allClear} value ="" id='ac'>AC</button>
             </div>
         </div>
     );

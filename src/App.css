@@ -43,10 +43,26 @@ button {
 
 #input{
 align-items: center;
-padding: 5px;
-width: 250px;
+padding:5px;
+width: 160px;
+font-size: 20px;
+border-radius: 3px;
+border-color: gray;
 }
 .container{
   display: grid;
-  grid-template-columns: repeat(3, 50px);
+  margin-left: 44.5%;
+  grid-template-columns: repeat(3,50px);
+  grid-gap: 10px;
+}
+.euqal{
+  grid-area: 5/3/7/4;
+}
+#color{
+  color: rgb(97, 192, 97);
+}
+#ac{
+  background-color: rgb(226, 10, 10);
+  border: none;
+  color:white;
 }
